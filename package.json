@@ -2,8 +2,9 @@
   "name": "library-parcel",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -12,8 +13,12 @@
   "type": "commonjs",
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
+    "lucide-react": "^0.562.0",
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "tailwindcss": "^4.1.18"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.3"
   }
 }
