@@ -1,4 +1,6 @@
 import React from 'react';
+import { Plus } from 'lucide-react';
+import BookCard from './BookCard';
 const BrowseBooksTab = ({ books, onBorrow, canBorrow, onAddBookClick, isAdmin }) => {
     return (
       <div>

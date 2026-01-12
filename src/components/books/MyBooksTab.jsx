@@ -1,4 +1,6 @@
 import React from 'react';
+import { Book } from 'lucide-react';
+import BorrowedBookCard from './BorrowedBookCard';
 
 const MyBooksTab = ({ borrowedBooks, onReturn }) => {
     return (
