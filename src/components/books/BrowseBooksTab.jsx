@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plus } from 'lucide-react';
+import Plus from 'lucide-react/dist/esm/icons/plus';
 import BookCard from './BookCard';
 const BrowseBooksTab = ({ books, onBorrow, canBorrow, onAddBookClick, isAdmin }) => {
     return (
